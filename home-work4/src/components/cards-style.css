@@ -1,0 +1,110 @@
+.card-content {
+    max-width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.44);
+}
+
+
+.card-header {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #032a39;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 170px;
+    background-color: #e0e8ef;
+    padding: 5px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -5px;
+    color: #e77401;
+}
+
+.per-month {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -9px;
+    color: #0d353a;
+}
+
+.features-list {
+    margin-bottom: 30px;
+    padding: 5px 20px;
+}
+
+.feature {
+    font-size: 14px;
+}
+
+.feature:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.cross::before {
+    content: "";
+    background: url('../../public/img/deny.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.check::before {
+    content: "";
+    background: url('../../public/img/accept.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.subscribe-button {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #032a39;
+    padding: 10px 35px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+}
+
+.pricing-card {
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: auto;
+}
